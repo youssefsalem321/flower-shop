@@ -1,0 +1,142 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Playwrite AU QLD", cursive;
+}
+
+.navbar {
+    background-color: rgb(249, 162, 177) !important; 
+}
+.navbar .nav-link {
+    color: white !important; 
+}
+.navbar .nav-link:hover {
+    color: black !important; 
+}
+
+
+.navbar-brand{
+    margin-left: 20px;
+
+}
+
+.navbar-brand span{
+    color: white;
+}
+
+
+
+.nav-item{
+    margin-left: 10px;
+    
+} 
+
+
+
+
+
+
+.text-overlay {
+    position: absolute;
+    top: 40%;
+    left: 400px;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    padding: 250px;
+    
+}
+
+.h1{
+    color: black;
+}
+
+.h2{
+    color: palevioletred;
+}
+
+.btn1{
+    background-color: black;
+    color:white;
+}
+
+.line-section{
+    /* border: 3px solid blueviolet; */
+    background-color: rgba(255, 192, 203, 0.279);
+    width: 90%;
+    height: 60px;
+    margin-left: 5%;
+    
+}
+
+.video-left{
+    box-shadow: 5px 5px 5px black ;
+}
+
+
+.line-section span{
+    color: palevioletred;
+    
+}
+
+
+.card-section{
+    border: 3px solid red;
+}
+
+
+.card{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    transition: transform 2s;
+    box-shadow: 5px 5px 5px pink;
+}
+
+.card img:hover{
+    transform: scale(1.1);
+}
+
+.card-title{
+    text-align: center;
+}
+
+.card-price{
+    color: palevioletred
+}
+
+.card-price span{
+    color: silver;
+    /* font-size: 70%; */
+    margin-left: 10px;
+}
+
+.profile{
+    border-radius: 50%;
+    height: 25%;
+    width: 25%;
+}
+
+.contact-img{
+    width: 80%;
+    height: 80%;
+    margin-left: 90px;
+}
+
+
+
+.data-left{
+    background-color: rgba(255, 192, 203, 0.507);
+    height: 450px;
+}
+
+
+
+body{
+    background-color: white;
+    height: 4700px;
+    font-family: "Playwrite AU QLD", cursive;
+}
+
+
